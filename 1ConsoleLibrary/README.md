@@ -1,4 +1,4 @@
-# Project One By Connor Reed
+# Console Library by Connor Reed
 
 ## This a summary of the soultion for this project
 

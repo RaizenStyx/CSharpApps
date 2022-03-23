@@ -1,7 +1,5 @@
-# CITC 1372
-## Connor Reed
-## Assighment 3 Bit Operator
-### Due: Feb 27th 2022
+
+## Bit Operator by Connor Reed
 ___
 
 This project builds a understanding of bit logic combined with event handling. With the 2 switches that represent a bit and its value, on or off, this app performs 3 different operations on them. ANDing, ORing, or Adding.

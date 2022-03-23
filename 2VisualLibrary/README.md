@@ -1,7 +1,5 @@
-# CITC 1372
-## Connor Reed
-## Project 2 Visual Libaray
-### Due: Feb 13th 2022
+
+## Visual Libaray By Connor Reed
 ___
 
 This project builds a understanding of making basic C# Desktop application. Its holds 2 data grid veiws in separate boxs from each other. They both contain part of a list from a JSON file. When one item is double clicked, it moves from one side to the other.

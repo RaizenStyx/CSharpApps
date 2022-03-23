@@ -1,7 +1,6 @@
-# CITC 1372
-## Connor Reed
-## Sunrise Sunset
-### Due: Mar 21th 2022
+
+## Sunrise Sunset by Connor Reed
+
 ___
 
 This project builds a database with states and their cordinates from an API. It then uses another API that pulls data and shows the user the time the sun rises and sets along with other data.
