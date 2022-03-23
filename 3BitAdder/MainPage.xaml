@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project3.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="LightCyan" Padding="24" CornerRadius="10" Margin="10">
+            <Label TextColor="Blue" Text="This App takes two bits and AND's them together, OR's them together, and ADDs them together."
+                   HorizontalTextAlignment="Center" FontSize="22"/>
+        </Frame>
+
+        <StackLayout Padding="40" Orientation="Horizontal" HorizontalOptions="Center" Margin="30" BackgroundColor="AliceBlue">
+            <Label x:Name="lbBitOne" Text="Bit One"></Label>
+            <Switch x:Name="SwBitOne" Toggled="SwBitOne_Toggled" IsToggled="False"></Switch>
+            <Switch x:Name="SwBitTwo" Toggled="SwBitTwo_Toggled" IsToggled="False"></Switch>
+            <Label x:Name="lbBitTwo" Text="Bit Two"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <StackLayout HorizontalOptions="Center" Margin="15">
+                <Label Text="AND Bits"></Label>
+                <Label x:Name="ANDingBits" BackgroundColor="Magenta" Text="0" TextColor="Black"
+                       Padding="20"></Label>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Center" Margin="15">
+                <Label Text="OR Bits"></Label>
+                <Label x:Name="ORingBits" BackgroundColor="Magenta" Text="0" TextColor="Black"
+                       Padding="20"></Label>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Center" Margin="15">
+                <Label Text="Add Bits"></Label>
+                <Label x:Name="ADDingBits" BackgroundColor="Magenta" Text="0" TextColor="Black"
+                       Padding="20"></Label>
+            </StackLayout>
+            
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
