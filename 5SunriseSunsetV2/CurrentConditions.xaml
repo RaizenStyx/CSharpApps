@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SunriseSunset.CurrentConditions">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Aqua">
+
+
+            <Label x:Name="CurrentCityName" Font="20" HorizontalOptions="Center" TextColor="Black"></Label>
+            <Image x:Name="CurrentCityIcon" Scale="3" HorizontalOptions="Center"></Image>
+            <Label x:Name="CurrentCityConditions" Font="12" HorizontalOptions="Center" TextColor="Black"></Label>
+            <Label x:Name="CurrentCityTemp" Font="12" HorizontalOptions="Center" TextColor="Black"></Label>
+            <Label x:Name="CurrentCityFeelLike" Font="12" HorizontalOptions="Center" TextColor="Black"></Label>
+            <Label x:Name="CurrentCityMaxTemp" Font="12" HorizontalOptions="Center" TextColor="Black"></Label>
+            <Label x:Name="CurrentCityMinTemp" Font="12" HorizontalOptions="Center" TextColor="Black"></Label>
+            <Label x:Name="CurrentCityPressure" Font="12" HorizontalOptions="Center" TextColor="Black"></Label>
+            <Label x:Name="CurrentCityHumidity" Font="12" HorizontalOptions="Center" TextColor="Black"></Label>
+            <Label x:Name="CurrentCityWindSpeed" Font="12" HorizontalOptions="Center" TextColor="Black"></Label>
+            <Label x:Name="CurrentCityWindDegrees" Font="12" HorizontalOptions="Center" TextColor="Black"></Label>
+            <Label x:Name="CurrentCityWindGust" Font="12" HorizontalOptions="Center" TextColor="Black"></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
