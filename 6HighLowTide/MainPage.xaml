@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:High_Low_Tides.ViewModels"
+             x:Class="High_Low_Tides.MainPage"
+             Title="5 Day Tides for Clearwater Beach, FL">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <vm:MainPageViewModel x:Key="vm" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+
+        <ListView BindingContext="{StaticResource vm}"
+                  ItemsSource="{Binding displayPredictions}"
+                  BackgroundColor="Silver" Margin="10">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10" BackgroundColor="WhiteSmoke">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Row="1" Grid.ColumnSpan="2" TextColor="Aquamarine" Text="{Binding t}"/>
+                            <Label Grid.Row="1" Grid.Column="2" TextColor="Aqua" Text="{Binding type}"/>
+
+                        </Grid>
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        
+    </StackLayout>
+
+</ContentPage>
